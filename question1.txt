@@ -1,0 +1,9 @@
+Based on the given code my answers are:
+
+question 1: Explain what the simple List component does.
+
+Answer: The List component is a React component that displays a list of items. 
+        Each item is rendered using the SingleListItem component. 
+        When an item is clicked, its index is stored in the component's state as the selectedIndex, 
+        and that item is highlighted with a green background. 
+        The previously selected item is then unselected (i.e., its background color is changed back to red).
